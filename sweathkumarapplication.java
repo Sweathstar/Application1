@@ -30,8 +30,6 @@ public class sweathkumarapplication {
 				int num3=a.nextInt();
 				switch(num3) {
 					case 1:{
-						do{
-							loop=true;
 						System.out.println("\n1.Prime Number\n2.Fibonacci Series.\n3.Factorial Add.\n4.Exit");
 						int num4=a.nextInt();
 						switch(num4) {
@@ -56,13 +54,16 @@ public class sweathkumarapplication {
 							break;
 						}
 						}
-						}while(loop);
-						loop=true;
+						}
+					
+					case 2:{
+						loop=false;
 						break;
 					}
 				}
 			}while(loop);
 			loop=true;
+			break;
 			}
 			case 3:{
 				loop=false;
