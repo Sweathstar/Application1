@@ -1,4 +1,4 @@
-#SWEATHKUMAR'S PROJECT 1
+#SWEATHKUMAR'S_PROJECT_1
 Normal child program
 
 Introduction
